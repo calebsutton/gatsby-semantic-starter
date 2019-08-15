@@ -6,11 +6,12 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Semantic UI Starter',
+    title: 'Gatsby Semantic UI + Typescript Starter',
     copyright: 'Long Winter Technology',
   },
   plugins: [
     `gatsby-plugin-less`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`
     ]
 }
